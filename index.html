@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronometraje de Carrera de 10K</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cronometraje de Carrera de 10K</h1>
+        <p>¡Preparados, listos, ya!</p>
+    </header>
+
+    <main>
+        <section id="cronometro">
+            <h2>Tiempo de Carrera</h2>
+            <div id="tiempo-actual">00:00:00</div>
+            <button id="iniciar">Iniciar Carrera</button>
+            <button id="pausar">Pausar</button>
+            <button id="resetear">Resetear</button>
+            <button id="detener">Detener Carrera</button>
+        </section>
+
+	<section id="corredores">
+    	    <h2>Llegada de Corredores</h2>
+            <div id="formulario-llegada">
+        	<input type="text" id="nombre-corredor" placeholder="Nombre o dorsal del corredor">
+        	<button id="registrar-llegada">Registrar Llegada</button>
+    	    </div>
+    	    <div id="listado-corredores">
+        	</div>
+	</section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Carrera de 10K</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
